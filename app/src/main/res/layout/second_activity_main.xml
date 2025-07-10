@@ -35,7 +35,7 @@
                 android:layout_margin="50dp"
                 android:textColor="@color/white"
                 android:layout_gravity="center"
-                android:backgroundTint="@color/MoonstoneBlue">
+                android:backgroundTint="@color/MoonstoneBlue"/>
 
         </LinearLayout>
     </ScrollView>

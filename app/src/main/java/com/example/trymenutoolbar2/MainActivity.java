@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         clickToNext(R.id.button1);
-
-
     }
 
     private void clickToNext(int id) {
