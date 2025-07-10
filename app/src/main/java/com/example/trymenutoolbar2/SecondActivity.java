@@ -10,11 +10,12 @@ import androidx.appcompat.app.AppCompatActivity;
 public class SecondActivity extends AppCompatActivity {
     private Button button;
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_activity_main);
 
-        button = findViewById(R.id.button2);
+        clickToBack(R.id.button2);
     }
 
     private void clickToBack(int id) {
